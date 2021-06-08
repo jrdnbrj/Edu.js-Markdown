@@ -3,9 +3,9 @@ Vue maneja el concepto de **enlace de datos bidireccional** que se refiere a tom
 Desafortunadamente, no funciona con todos los elementos. Así que nuestro párrafo donde renderizamos el contenido de la **nota**, lo tenemos que borrar y actualizar a **textarea**. Además, vamos a usar la **directiva v-model** y pasarle como `notaActual.contenido`, esto permite que el contenido dentro de **textarea** siempre será el **notaActual.contenido** y viceversa. También vamos a cambiar el elemento **h2** por un **input** de tipo **text**, y de la misma forma usar la **directiva v-model** y pasarle como `notaActual.titulo`:
 
 ```jsx
-<div  v-if= “notaActual” class= “current-note”>
-	<input v-model= “notaActual.titulo”  type="text">
-	<textarea v-model= “notaActual.contenido”  > </  textarea  >
+<div v-if="notaActual" class="current-note">
+	<input v-model="notaActual.titulo" type="text">
+	<textarea v-model= "notaActual.contenido"> </textarea>
 </div>
 ```
 

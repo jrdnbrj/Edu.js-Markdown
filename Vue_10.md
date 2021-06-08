@@ -9,7 +9,7 @@ watch: {
 	notas: {
 		deep: true,
 		handler(nuevaNota) {
-			localStorage.setItem(‘notas’, JSON.stringify(nuevaNota));
+			localStorage.setItem('notas', JSON.stringify(nuevaNota));
 		}
 	},
 },
@@ -21,8 +21,8 @@ Así que, antes que nada, debemos verificar si existen **notas** guardadas en nu
 
 ```jsx
 mounted(){
-	if(localStorage.getItem(‘notas’)){
-		this.notas = JSON.parse(localStorage.getItem(‘notas’));
+	if(localStorage.getItem('notas')){
+		this.notas = JSON.parse(localStorage.getItem('notas'));
 	}
 }
 ```

@@ -4,7 +4,7 @@ Los Hooks, son una nueva función que permite manejar el estado y el ciclo de vi
 
 Para continuar con nuestro proyecto, necesitar ser capaces de establecer el estado de nuestra aplicación. En este caso, necesitamos añadir cada tarea al estado de la aplicación para que cada vez que se actualice información con respecto a una tarea, esa información vuelva a renderizarse con el cambio realizado.
 
-Para eso, usaremos el Hook integrado en React llamado **useState**. Primeramente, debemos importar el Hook dentro del import de React y lo hacemos de esta manera: `import  React, { useState }  from  ‘react`’;
+Para eso, usaremos el Hook integrado en React llamado **useState**. Primeramente, debemos importar el Hook dentro del import de React y lo hacemos de esta manera: `import  React, { useState }  from  'react';`
 
 Procedemos a llamar la función **useState dentro de nuestra función App. Después, debido a que nuestra lista de tareas inicialmente no contiene nada, le pasamos como estado inicial un **Array vació ([ ])**.  Debido a que **useState** retorna un **Array**, podemos hacer uso de la desestructuración de objetos para poder extraer propiedades de esos objetos y poder vincularlos a variables.
 

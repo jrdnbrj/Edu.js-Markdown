@@ -2,7 +2,7 @@
 
 Esto parece poco importante,  sin embargo, estos **atajos** son muy usados en codificación Vue a nivel profesional, y al momento que te encuentres con código  de este tipo te resultará confuso leerlo y nosotros no queremos que pase eso, nosotros te queremos listo para el mundo actual.
 
-Entonces, vamos a refactorizar estas **directivas** comenzando por la **directiva v-on**. Para la **directiva v-on**, removemos toda la directiva incluyendo los **dos puntos**, y lo cambiamos por un signo arroba **“@”**. Por el otro lado, para la **directiva v-bind**, removemos toda la **directiva**, pero esta vez, conservamos los dos puntos, por lo cual, nuestra directiva solo empieza con **dos puntos**:
+Entonces, vamos a refactorizar estas **directivas** comenzando por la **directiva v-on**. Para la **directiva v-on**, removemos toda la directiva incluyendo los **dos puntos**, y lo cambiamos por un signo arroba **"@"**. Por el otro lado, para la **directiva v-bind**, removemos toda la **directiva**, pero esta vez, conservamos los dos puntos, por lo cual, nuestra directiva solo empieza con **dos puntos**:
 
 ```j
 :key

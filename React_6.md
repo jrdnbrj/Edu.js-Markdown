@@ -2,8 +2,8 @@ Los eventos en React son usados de manera que,  al realizar una determinada acci
 
 Para esto, damos uso al evento de **onClick** dentro de nuestro elemento **button** y lo establecemos igual a nuestra función. Para nuestro proyecto crearemos una función llamada **agregarTarea**:
 
-```jsx
-<button  onClick= {agregarTarea} > Añadir Tarea <  /button >
+```html
+<button onClick={agregarTarea}>Añadir Tarea</button>
 ```
 
 Finalizado esto, necesitamos declarar nuestra función dentro del componente App,  indicando el parámetro de evento, el cual por preferencia se usa la letra e:

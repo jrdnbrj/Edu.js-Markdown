@@ -8,7 +8,7 @@ La condición que usaremos será revisar si existe alguna **nota** dentro de nue
 En Javascript, el 0 es un valor considerado **false**, y cualquier otro valor superior a 0 se lo considera como un **true**. Una vez explicado esto, podemos pasar a codificar nuestra condición:
 
 ```jsx
-<ul v-if=“notas.length”> 
+<ul v-if="notas.length"> 
 ```
 
 En referencia al código anterior, estamos indicando que, en el caso de ser verdadero, se renderice el **unordered list** si el **length** tiene alguna **nota**. Por otro lado, debemos indicar un mensaje en el caso de que no existan notas. Para esto, igualmente con la **directiva v-if**, verificamos si nuestro **notas.length** es falso, en caso de serlo, desplegamos el mensaje **“No hay notas guardadas”**.
@@ -16,8 +16,8 @@ En referencia al código anterior, estamos indicando que, en el caso de ser verd
 Colocamos un párrafo que se renderice arriba de nuestro **unordered list**, y usamos un **!** para invertir nuestra condición, y así determinar si **notas.length** es falso. El código se vería de esta forma:
 
 ```jsx
-<p v-if=“!notas.length”>No hay notas guardadas</p> 
-<ul v-if=“notas.length”> 
+<p v-if="!notas.length">No hay notas guardadas</p> 
+<ul v-if="notas.length"> 
 ```
 
 Podemos borrar la información momentánea dentro de nuestro **Array notas** para probarlo.

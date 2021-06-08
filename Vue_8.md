@@ -5,7 +5,7 @@ Para que nuestros usuarios ingresen las notas dentro de la pantalla, vamos a uti
 ```jsx
 methods: {
 	crearNota(){
-		const  nuevaNota = {titulo: ‘’, contenido: ‘’};
+		const nuevaNota = {titulo: '', contenido: ''};
 		this.notas.push(nuevaNota);
 		this.notaActual = nuevaNota;
 	}

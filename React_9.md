@@ -25,7 +25,7 @@ function  manejoTareaClic  () {
 return (
 	<div>
 		<label>
-			<input type=”checkbox” checked={tarea.completado} onChange={manejoTareaClic} />
+			<input type="checkbox" checked={tarea.completado} onChange={manejoTareaClic} />
 			{tarea.nombre}
 		</label>
 	</div>

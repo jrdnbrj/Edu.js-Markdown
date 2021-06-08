@@ -2,7 +2,7 @@ Vue es un framework que trabaja de manera progresiva. Se encarga de construir in
 
 Con Vue, es importante trabajar con **HTML** y **Javascript** de manera conjunta dentro de la carpeta **src**, tenemos el archivo **App.vue**. Entonces, vamos a demostrar cómo estas tecnologías pueden funcionar para imprimir nuestro primer **Hello World**.
 
-En **App.vue**, el **HTML** está dentro de nuestro elemento `<template> </template>`, y nuestro **Javascript** está dentro de nuestro elemento `<script></script>`. Comenzaremos inicializando la funcionalidad de nuestro **App**, que tiene un nombre y lo haremos en nuestro **Javascript**. Una forma de hacer esto es de la siguiente manera:
+En **App.vue**, el **HTML** está dentro de nuestro elemento `<template></template>`, y nuestro **Javascript** está dentro de nuestro elemento `<script></script>`. Comenzaremos inicializando la funcionalidad de nuestro **App**, que tiene un nombre y lo haremos en nuestro **Javascript**. Una forma de hacer esto es de la siguiente manera:
 
 ```jsx
 <script>
@@ -27,7 +27,7 @@ Ahora para poder usar esa data y poder mostrarla, pasemos a nuestro **HTML**. En
 
 ```jsx
 <template>
-	<div class=“app”>
+	<div class="app">
 		<h1>Bienvenido al curso de Vue</h1>
 		<p>{{message}}</p>
 	</div>

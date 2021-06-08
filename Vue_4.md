@@ -4,7 +4,7 @@ Se preguntarán para que servirá el botón que vamos a crear. Vamos a permitir 
 
 ```jsx
 data: {
-	notas:  [  {titulo: “título”, contenido: “contenido”}],
+	notas:  [  {titulo: "título", contenido: "contenido"}],
 	notaActual: null
 }
 ```
@@ -20,7 +20,7 @@ Ahora si, en nuestro HTML, dentro de nuestro bucle insertamos el botón con su r
 Listo, lo último que nos falta hacer es desplegar el contenido de esa **nota** con su título dentro de un contenedor. En este caso, este contenedor será una clase que desplegará el título y el contenido como un párrafo afuera de nuestro **nav**. Es importante indicar por medio de un condicional que solo renderice este contenedor si efectivamente existe una **notaActual**, de lo contrario, tendremos un error porque nuestra aplicación intentará renderizar algo que no existe. Por ende, el código quedaría de esta manera:
 
 ```jsx
-<div  v-if= “notaActual” class= “current-note”>
+<div v-if="notaActual" class= "current-note">
 	<h2> {{notaActual.titulo}} </h2>
 	<p > {{notaActual.contenido}} </p>
 </div>

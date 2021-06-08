@@ -4,7 +4,9 @@ Los **props** son esencialmente las entradas de un componente que son pasadas de
 <NombreDelComponente  nombreDelProp={nombreDeLaVariable} />
 ```
 
-El nombre del **prop** puede ser igual o diferente al nombre de la variable. En este caso, yo usaré el mismo nombre **tareas**. Una vez realizado eso, necesitamos poder mostrar las entradas que se encuentran dentro de nuestro **Array** que vendrían a ser todas las **tareas**. Para esto, dentro de **TareasLista.js** necesitamos pasar el prop que creamos, en este caso el prop **tareas**. Además, vamos a crear un componente llamado **Tarea.js** y realizamos el atajo de **rfc** para generar el código usual del componente. Dentro del componente podemos pasar un elemento **tarea**. Tendría una estructura de la siguiente forma:
+
+
+El nombre del **prop** puede ser igual o diferente al nombre de la variable. En este caso, yo usaré el mismo nombre **tareas**. Una vez realizado eso, necesitamos poder mostrar las entradas que se encuentran dentro de nuestro **Array** que vendrían a ser todas las **tareas**. Para esto, dentro de **TareasLista.js** necesitamos pasar el prop que creamos, en este caso el prop **tareas**. Además, vamos a crear un componente llamado **Tarea.js** y digitamos el código básico que se aprendió en el primer módulo para poder crear un componente funcional de React. Dentro del componente podemos pasar un elemento **tarea**. Tendría una estructura de la siguiente forma:
 
 ```jsx
 export default function Tarea( {tarea} )

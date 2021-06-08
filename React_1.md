@@ -4,8 +4,8 @@ React trabaja con JSX, el cual tiene una sintaxis muy parecida a HTML y usa el p
 
 Ahora bien, comencemos a programar el clásico **Hello World**, React  ya tiene un ejemplo simple para esto encontrado [aquí](https://es.reactjs.org/docs/hello-world.html). Sin embargo, para poder aprender los conceptos de componentes y JSX pondremos en práctica ambos para sacar nuestro **Hello World**. Dentro de nuestro proyecto, tenemos el componente App que es la raíz de nuestro proyecto, dentro de este componente crearemos y llamaremos a un nuevo componente funcional llamado **TareasLista**. La estructura se vería de la siguiente forma:
 
-```
-import  React  from ‘react’;
+```jsx
+import  React  from 'react';
 
 function  App() {
 	return (
@@ -16,12 +16,12 @@ function  App() {
 export default App;
 ```
 
-Ahora, dentro de la carpeta “src” crearemos un nuevo archivo llamado **TareasLista.js**, este archivo contendrá nuestro componente funcional. Dentro de este nuevo archivo podemos usar el atajo de **rfc** y Enter para poder generar la sintáxis de nuestro componente funcional el cual se ve de la siguiente manera:
+Ahora, dentro de la carpeta “**src**” crearemos un nuevo archivo llamado **TareasLista.js**, este archivo contendrá nuestro componente funcional. Dentro de este nuevo archivo escribimos el código estructural para crear un componente funcional de **React** y lo llamamos **TareasLista**, el código se ve de la siguiente manera:
 
-```
-import  React  from ‘react’
+```jsx
+import  React  from 'react'
 
-export default function  NombreDelArchivo() {
+export default function  NombreDelComponente() {
 	return (
 		<div>
 		</div>
@@ -29,4 +29,4 @@ export default function  NombreDelArchivo() {
 }
 ```
 
-Finalmente, escribimos el texto de Hello  World dentro de las etiquetas **div** e importamos este componente dentro de nuestro componente App. Para importar un componente seguimos la sintaxis: import  NombreDelComponente  from  ‘LocaciónDelArchivo’. En este caso, nuestro componente funcional está ubicado dentro de la misma carpeta src así que la locación sería ‘./NombreDelArchivo’, una vez culminada la importación del componente procedemos a ejecutar la aplicación. ¡Y listo! De esta manera renderizamos el componente **TareasLista** dentro del componente **App**, y en el componente **TareasLista** renderizamos el texto de **Hello  World**.
+Finalmente, escribimos el texto de Hello  World dentro de las etiquetas **div** e importamos este componente dentro de nuestro componente App. Para importar un componente seguimos la sintaxis: import  NombreDelComponente  from  ‘LocaciónDelArchivo’. En este caso, nuestro componente funcional está ubicado dentro de la misma carpeta src así que la locación sería './NombreDelArchivo', una vez culminada la importación del componente procedemos a ejecutar la aplicación. ¡Y listo! De esta manera renderizamos el componente **TareasLista** dentro del componente **App**, y en el componente **TareasLista** renderizamos el texto de **Hello  World**.

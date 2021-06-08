@@ -4,7 +4,7 @@ Podemos guardar nuestras tareas dentro del almacenamiento local, y para esto, no
 
 **useEffect** es usado como una función que tiene como su primer parámetro otra función. Esta función será llamada cada vez que exista algún cambio, y para determinar cuándo será llamada debemos pasar un **Array** de propiedades. Este **Array** contendrá nuestras dependencias, que permite que cada vez que algo cambie dentro de este **Array**, la función **useEffect** es llamada. Una vez que sea llamado, guardara todas nuestras tareas.
 
-Para guardar nuestras tareas debemos tener un item que tenga una llave ya declarada `const ALMACENAMIENTO_LOCAL_KEY = ‘tareasApp.tareas’`. Y también, debemos pasar este item como un string ayudándonos de **JSON**:
+Para guardar nuestras tareas debemos tener un item que tenga una llave ya declarada `const ALMACENAMIENTO_LOCAL_KEY = 'tareasApp.tareas'`. Y también, debemos pasar este item como un string ayudándonos de **JSON**:
 
 ```jsx
 useEffect(() => { 
