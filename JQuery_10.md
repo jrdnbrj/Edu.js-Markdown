@@ -13,9 +13,7 @@ Ahora, vamos a **filtrar** nuestra **variable global**. Para **filtrarlo**, vamo
 **Filter** deja pasar a todos los **elementos** de un **Array** que cumplan con la **validación** que le indico. Debido a que **indice** e **index** tiene el mismo orden en cuanto al **índice**, si borramos un elemento, solo se elimina en el **índice** de nuestra **lista**, pero no de nuestro **índice** de nuestro **almacenamiento global**. Entonces, con la **validación** `indice != index`, no va a pasar a **indice**, y queda eliminado de nuestra **variable global**: 
 ```jsx 
 window.listaCompras = window.listaCompras.filter( 
-
       (compra, index) => indice != index 
-
 ); 
 ```
 Finalmente, como nuestra **variable global** ya está **filtrada** por lo valores que son, podemos establecer sus **ítems** dentro de **almacenamiento local** con el **método setItem()** como lo hicimos en el **módulo 8**, y todo el **método** quedaría de la siguiente manera: 
