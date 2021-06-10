@@ -21,22 +21,14 @@ Bien, ahora para iniciar nuestro proyecto de crear una lista de compras donde se
 De igual manera, vamos a crear un **div** con un **id button** el cual servirá para funcionar como un botón para ingresar nuestros ítems a nuestra lista de compras, y recibirá cualquier nombre, este código se vería de la siguiente forma: 
 ```jsx
 <div class="container"> 
-
       <h2>Bienvenido al curso de jQuery</h2> 
-
-
       <form name="listaCompras"></form> 
-
-
       <div id="button">Añadir ítem</div> 
-
     </div> 
 ```
 Finalmente, dentro de nuestro **index.js**, vamos a declarar nuestra primera sentencia **jQuery**: 
 ```jsx
 $('#button').click(function() { 
-
-    
   }); 
 ```
 
