@@ -7,13 +7,13 @@ La **sintaxis** de una sentencia en **jQuery** es simple y sencilla de comprende
 Como podemos ver, existen 4 partes importantes en esta línea de código, el signo de dólar "**$**" sirve para acceder a **jQuery**, el **selector** sirve para seleccionar un elemento de nuestro **HTML** y debe estar entre comillas simples o dobles, el **method** llama a un método para que actúe sobre el elemento seleccionado, y finalmente, el **parameter** es un parámetro opcional del método, este parámetro puede ser variables de cualquier tipo, tales como: **objetos**, **arrays**, **integers**, e inclusive otros **métodos**. 
 
 De igual manera, hay muchas formas de usar un selector, aquí tenemos 3 ejemplos de formas comúnmente utilizadas: 
+```jsx
+$('.power') // selecciona todos los elementos con la clase "power".
 
-`$('.power') // selecciona todos los elementos con la clase "power".`
+$('#about') // selecciona un solo elemento con el id "about". 
 
-`$('#about') // selecciona un solo elemento con el id "about".` 
-
-`$('div') // selecciona todos los elementos "div".` 
-
+$('div') // selecciona todos los elementos "div".
+```
 Estos son solo 3 ejemplos de la gran variedad de formas de usar un **selector**, para más información acerca de los **selectors**, puedes hacer clic [aquí](https://api.jquery.com/category/selectors/). 
 
 Bien, ahora para iniciar nuestro proyecto de crear una lista de compras donde se puedan ingresar ítems, vamos a ingresar a nuestro **index.html** y dentro de nuestro `<div class="container">`, y debajo de nuestro título, vamos a crear un elemento **HTML** llamado **form**, el cual nos sirve para crear un formulario que obtenga las entradas del usuario. El elemento **form** recibirá un atributo **name** el cual especifica el nombre del formulario. 
