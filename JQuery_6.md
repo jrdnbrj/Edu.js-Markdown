@@ -3,9 +3,6 @@ Los **selectors** son esenciales al momento de programar con **jQuery**. El **se
 En el caso de nuestro proyecto, vamos a poder borrar cualquiera de nuestros ítems de lista haciendo un doble clic sobre ellos. En este caso, los **list items** que tienen la etiqueta **li**, son un **elemento** que están dentro del **document** el cual viene a ser el **elemento padre**. El **document** es nuestro **selector**, y **li** es nuestro childSelector. Para que el childSelector responda a nuestro evento de doble clic, tanto el **evento** como el **childSelector** tienen que pasarse como parámetros. Y como aprendimos en el anterior módulo, usaremos el **método on()**, debido a que permite adjuntar uno o más controladores de **eventos**. Finalmente, la sentencia quedaría de esta manera: 
 
 ```jsx 
-
 $(document).on('dblclick', 'li', function() { 
-
 }); 
-
 ``` 
