@@ -24,12 +24,12 @@ De igual manera, vamos a crear un **div** con un **id button** el cual servirá 
       <h2>Bienvenido al curso de jQuery</h2> 
       <form name="listaCompras"></form> 
       <div id="button">Añadir ítem</div> 
-    </div> 
+</div> 
 ```
 Finalmente, dentro de nuestro **index.js**, vamos a declarar nuestra primera sentencia **jQuery**: 
 ```jsx
 $('#button').click(function() { 
-  }); 
+}); 
 ```
 
 Como podemos observar en el código anterior, actuamos sobre nuestro elemento con el **id** de **button** y llamamos a nuestro **método click** que, a su vez, recibe como parámetro otro **método function**. Más adelante veremos que va a realizar este **método function** al hacer clic sobre nuestro elemento **HTML**. 
