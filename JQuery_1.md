@@ -9,9 +9,7 @@ Como podemos ver, existen 4 partes importantes en esta línea de código, el sig
 De igual manera, hay muchas formas de usar un selector, aquí tenemos 3 ejemplos de formas comúnmente utilizadas: 
 ```jsx
 $('.power') // selecciona todos los elementos con la clase "power".
-
 $('#about') // selecciona un solo elemento con el id "about". 
-
 $('div') // selecciona todos los elementos "div".
 ```
 Estos son solo 3 ejemplos de la gran variedad de formas de usar un **selector**, para más información acerca de los **selectors**, puedes hacer clic [aquí](https://api.jquery.com/category/selectors/). 
