@@ -24,13 +24,9 @@ De igual manera, vamos a crear un **div** con un **id button** el cual servirá 
 
       <h2>Bienvenido al curso de jQuery</h2> 
 
- 
- 
 
       <form name="listaCompras"></form> 
 
- 
- 
 
       <div id="button">Añadir ítem</div> 
 
@@ -40,8 +36,7 @@ Finalmente, dentro de nuestro **index.js**, vamos a declarar nuestra primera sen
 ```jsx
 $('#button').click(function() { 
 
-     
-
+    
   }); 
 ```
 
