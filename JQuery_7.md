@@ -1,6 +1,6 @@
 **jQuery** brinda nos permite ser muy creativos de distintas formas, una de ellas, es usando **animaciones**. Vamos a usar dos **animaciones** al momento de eliminar uno de nuestros ítems de la lista de compras. Las dos **animaciones** serán las de rayar una línea encima del ítem y después desvanecerlo.  
 
-Dentro del **método function** que está en la **sentencia** creada en el módulo previo, vamos a usar **$(this)**. **$(this)** es un **selector** que sirve para posicionarnos en el **elemento** que estamos usando actualmente y poder interactuar con sus **elementos hijos**. Después, llamamos al **método toggleClass()** que sirve para agregar o eliminar una o más **clases** de cada **elemento**, en nuestro caso, tenemos una **clase** llamada **strike** dentro del **CSS**, esta **clase** se encargará de animar la raya que pasará a través del texto del ítem: 
+Dentro del **método function** que está en la **sentencia** creada en el módulo previo, vamos a usar `$(this)`. `$(this)` es un **selector** que sirve para posicionarnos en el **elemento** que estamos usando actualmente y poder interactuar con sus **elementos hijos**. Después, llamamos al **método toggleClass()** que sirve para agregar o eliminar una o más **clases** de cada **elemento**, en nuestro caso, tenemos una **clase** llamada **strike** dentro del **CSS**, esta **clase** se encargará de animar la raya que pasará a través del texto del ítem: 
 
 ```jsx 
 $(document).on('dblclick', 'li', function() { 
