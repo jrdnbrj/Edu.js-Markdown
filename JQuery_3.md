@@ -4,7 +4,7 @@ En cuanto a nuestro **index.js**, necesitamos **insertar elementos** dentro de e
 
 `$('ol').append('<li>' + toAdd + '</li>');` 
 
-Como podemos observar en el código, estamos **insertando** ítems de lista “**li**”, dentro de nuestra **lista ordenada**. En este caso, pasamos como parámetro la variable **toAdd** debido a que es la variable que ya tiene el valor de la entrada de usuario.  
+Como podemos observar en el código, estamos **insertando** ítems de lista "**li**", dentro de nuestra **lista ordenada**. En este caso, pasamos como parámetro la variable **toAdd** debido a que es la variable que ya tiene el valor de la entrada de usuario.  
 
 Finalmente, y para mejorar la experiencia de usuario, limpiamos el **input** y lo dejamos vacío cada vez que alguien realice el evento **click**: 
 
