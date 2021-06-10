@@ -5,13 +5,9 @@ Tranquilo programador, no has hecho nada mal. Lo que pasa es lo siguiente; en nu
 Para evitarlo, sobre nuestro **elemento form**, utilizaremos el **método on()**, el cual adjunta uno o más controladores de **eventos** para el **elemento** que se haya seleccionado. Dentro de este **método on()**, nos ayudamos del **método preventDefault()**, el cual **cancela un evento** indicando que la acción por defecto perteneciente a ese **evento** no va a ocurrir. Esto se ve de la siguiente forma: 
 
 ```jsx 
-
 $('form').on('submit', function(e) { 
-
     e.preventDefault(); 
-
   }); 
-
 ``` 
 
 ¡Listo, ahora al dar **Enter** no se refrescará nuestra página! 
