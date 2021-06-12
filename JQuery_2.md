@@ -8,11 +8,12 @@ En este evento, necesitamos obtener la entrada del usuario. Nuestro usuario nece
 </form> 
 ``` 
 
-Ahora, en nuestro **index.js**, dentro de nuestra función, necesitas crear una variable que la llamaremos **toAdd**, para obtener y seleccionar el valor del atributo seleccionado: 
+Ahora, en nuestro **index.js**, dentro de nuestra función, necesitas crear una variable que la llamaremos **toAdd**, para obtener y seleccionar el valor del atributo seleccionado, y para probar que funciona, de manera momentánea vamos a establecer el elemento **h2** a la variable **toAdd**: 
 
 ```jsx 
 $('#button').click(function() { 
     var toAdd = $('input[name=itemCompras]').val(); 
+    $('h2').text(toAdd);
   }); 
 ``` 
 
