@@ -17,5 +17,5 @@ En referencia al código anterior, el **this.notas** está referenciando el mism
 Finalmente, tenemos que llamar a este **método** dentro de nuestro **HTML**. Así que alado de nuestro **Bienvenido al curso de Vue**, vamos a crear un elemento **botón** que al momento de realizar un evento clic, llame a nuestro **método**:
 
 ```jsx
-<h1> Bienvenido al curso de Vue </h1> <button @click=“crearNota” class=“create-new-button"> Crear nota </button>
+<h1> Bienvenido al curso de Vue </h1> <button @click="crearNota" class="create-new-button"> Crear nota </button>
 ```
