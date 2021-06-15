@@ -2,7 +2,7 @@
 
 Para que nuestro proyecto sea **persistente**, vamos a almacenar nuestra data de manera local. Para esto necesitamos de dos cosas. Primeramente, cuando las **notas** se actualizan en la aplicación, necesitamos guardar esas nuevas **notas** dentro del **almacenamiento local**. Para esto, dentro de nuestro Javascript, necesitamos un **objeto** **watch** (el cual sirve para vigilar variables dentro de nuestra aplicación).
 
-**Watch** tendrá un **objeto** con el nombre del atributo de data que queremos recibir en **watch**, así que nuestro **objeto** se llamará **notas**. Y not**strong text**as, tendrá un **método** llamado **handler** que permite tener una opción llamada **deep** la cual verifica si valores cambiaron dentro del **Array**. Vue pasará un valor cada vez que este **método** sea llamado, a este valor lo llamaremos **nuevaNota**. El nuevo valor necesita guardarse dentro del **almacenamiento local** convirtiéndolo a **string** con la ayuda de **JSON**, utilizamos el método **setItem** para establecer lo mencionado:
+**Watch** tendrá un **objeto** con el nombre del atributo de data que queremos recibir en **watch**, así que nuestro **objeto** se llamará **notas** y tendrá un **método** llamado **handler** que permite tener una opción llamada **deep** la cual verifica si valores cambiaron dentro del **Array**. Vue pasará un valor cada vez que este **método** sea llamado, a este valor lo llamaremos **nuevaNota**. El nuevo valor necesita guardarse dentro del **almacenamiento local** convirtiéndolo a **string** con la ayuda de **JSON**, utilizamos el método **setItem** para establecer lo mencionado:
 
 ```jsx
 watch: {
