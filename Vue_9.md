@@ -6,7 +6,7 @@ Para lograr esto, necesitamos que dentro de nuestro **input** del **titulo**, a�
 <input v-model="notaActual.titulo" type="text" ref="notaTitulo">
 ```
 
-Entonces, hay que **referenciarlo** dentro de nuestro **método** **crearNota** en nuestro  Javascript, y para poder enfocarlo debemos usar el **método** `focus()` de Vue que permite enfocar un elemento:
+Entonces, hay que **referenciarlo** al final de nuestro **método** **crearNota** en nuestro Javascript, y para poder enfocarlo debemos usar el **método** `focus()` de Vue que permite enfocar un elemento:
 
 ```jsx
 this.$refs.notaTitulo.focus();
